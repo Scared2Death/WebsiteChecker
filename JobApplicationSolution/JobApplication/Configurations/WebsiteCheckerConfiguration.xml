@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+
+	<websites_to_check_file_path>
+		<value>./Data</value>
+	</websites_to_check_file_path>
+
+	<websites_to_check_file_name>
+		<value>website_list.csv</value>
+	</websites_to_check_file_name>
+
+	<log_to_console>
+		<value>true</value>
+	</log_to_console>
+
+	<log_to_file>
+		<value>true</value>
+		<file_path>./Logs</file_path>
+		<file_name>websiteChecker_logfile.txt</file_name>
+		<override>false</override>
+	</log_to_file>
+
+	<max_time_for_website_access_in_ms>
+		<value>2000</value>
+	</max_time_for_website_access_in_ms>
+
+	<time_interval_between_website_checks_in_ms>
+		<value>20000</value>
+	</time_interval_between_website_checks_in_ms>
+
+	<console_notification>
+		<value>true</value>
+	</console_notification>
+
+	<email_notification>
+		<value>false</value>
+	</email_notification>
+
+</root>

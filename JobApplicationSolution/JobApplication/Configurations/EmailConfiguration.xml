@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+	<sender>almadipeter@hotmail.com</sender>
+	
+	<password>*** some valid password here ***</password>
+		
+	<recipients>
+		<recipient>almadipeter@hotmail.com</recipient>
+		<recipient>almadipeter@gmail.com</recipient>
+		<recipient>almadipeter@yahoo.com</recipient>
+	</recipients>
+
+	<subject>Email notification from the website checker application</subject>
+
+	<host>smtp.live.com</host>
+
+	<port>587</port>
+
+</root>
